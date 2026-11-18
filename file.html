@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nitin | Aspiring Software & Systems Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header & Sticky Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">&lt;Nitin /&gt;</a>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge">Available for Internships &amp; Hackathons</span>
+        <h1>Hi, I'm <span class="highlight">Nitin</span>.<br />Aspiring Software &amp; Systems Engineer.</h1>
+        <p class="hero-desc">
+          First-year B.Tech Computer Science undergraduate passionate about building scalable web applications, disaster-resilience algorithms, and clean backend architectures. Turning real-world problems into reliable code.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>6+</strong>
+            <span>Projects Built</span>
+          </div>
+          <div class="stat-item">
+            <strong>250+</strong>
+            <span>DSA Problems Solved</span>
+          </div>
+          <div class="stat-item">
+            <strong>SIH '26</strong>
+            <span>Hackathon Builder</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Terminal Card -->
+      <div class="hero-card">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">nitin@dev-machine:~</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="output">Nitin — B.Tech CSE Student (Class of 2030)</p>
+          <p><span class="prompt">$</span> cat current_focus.txt</p>
+          <p class="output">• Full-Stack Web &amp; Real-Time Systems<br>• Python &amp; JavaScript Algorithms<br>• Linux Internals &amp; Git Workflows</p>
+          <p><span class="prompt">$</span> echo $LOCATION</p>
+          <p class="output">Bengaluru, Karnataka, India</p>
+          <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-content">
+          <p>
+            I am a driven engineering undergraduate who enjoys understanding how software works from the ground up—from operating system kernels and shell environments to responsive front-end interfaces.
+          </p>
+          <p>
+            Whether participating in national hackathons like Smart India Hackathon or debugging socket connections late at night, I approach engineering with structured logic, clean documentation, and a focus on real-world impact.
+          </p>
+        </div>
+        <div class="about-details">
+          <div class="detail-row">
+            <span class="detail-label">Name:</span>
+            <span class="detail-value">Nitin Sharma</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Degree:</span>
+            <span class="detail-value">B.Tech in Computer Science &amp; Engineering</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Location:</span>
+            <span class="detail-value">Bengaluru, India</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Interests:</span>
+            <span class="detail-value">Distributed Systems, WebSockets, Civic Tech</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Languages:</span>
+            <span class="detail-value">English, Hindi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Skills Section -->
+  <section id="skills" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Technical Arsenal</h2>
+      <p class="section-subtitle">Hover over any skill card to inspect proficiency and core tools.</p>
+      
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Programming Languages</h3>
+            <span class="skill-tag">Core</span>
+          </div>
+          <ul class="skill-list">
+            <li>Python 3 (Scripting &amp; Algorithms)</li>
+            <li>JavaScript (ES6+)</li>
+            <li>C / C++ (Foundational Logic)</li>
+            <li>SQL &amp; Bash Shell</li>
+          </ul>
+          <div class="progress-wrap">
+            <div class="progress-bar" style="--level: 88%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Web &amp; Real-Time Tech</h3>
+            <span class="skill-tag">Frontend &amp; Backend</span>
+          </div>
+          <ul class="skill-list">
+            <li>Semantic HTML5 &amp; Modern CSS3</li>
+            <li>Node.js &amp; Express Basics</li>
+            <li>WebSockets / Socket.io</li>
+            <li>RESTful API Integration</li>
+          </ul>
+          <div class="progress-wrap">
+            <div class="progress-bar" style="--level: 85%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>Developer Tools &amp; OS</h3>
+            <span class="skill-tag">Environment</span>
+          </div>
+          <ul class="skill-list">
+            <li>Git &amp; GitHub Version Control</li>
+            <li>Linux Command Line &amp; Permissions</li>
+            <li>VS Code Debugging &amp; Virtual Envs</li>
+            <li>System Architecture Fundamentals</li>
+          </ul>
+          <div class="progress-wrap">
+            <div class="progress-bar" style="--level: 90%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pure CSS Interactive Filterable Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Engineering Projects</h2>
+      <p class="section-subtitle">Filter projects by domain using the interactive tabs below.</p>
+
+      <!-- CSS Radio Filter Controls -->
+      <div class="filter-wrapper">
+        <input type="radio" name="filter" id="filter-all" checked />
+        <label for="filter-all" class="filter-btn">All Projects (4)</label>
+
+        <input type="radio" name="filter" id="filter-web" />
+        <label for="filter-web" class="filter-btn">Full-Stack &amp; Web</label>
+
+        <input type="radio" name="filter" id="filter-python" />
+        <label for="filter-python" class="filter-btn">Python &amp; Algorithms</label>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-category="python">
+            <div class="project-badge">Hackathon Prototype</div>
+            <h3>FloodGuard: Disaster Management System</h3>
+            <p>
+              An algorithmic hazard-mapping and evacuation planner built for Smart India Hackathon 2026. Identifies flood red-zones, calculates shelter carrying capacities, and maps safe relocation routes.
+            </p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>Geospatial Logic</span>
+              <span>Data Modelling</span>
+            </div>
+            <a href="#modal-floodguard" class="project-link">View Architecture &rarr;</a>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-category="web">
+            <div class="project-badge">Real-Time App</div>
+            <h3>PulseChat: Low-Latency Messaging</h3>
+            <p>
+              A full-stack bidirectional chat application supporting instant room creation, live user presence indicators, and resilient client-server socket reconnection handling.
+            </p>
+            <div class="tech-tags">
+              <span>JavaScript</span>
+              <span>Socket.io</span>
+              <span>HTML5 / CSS3</span>
+            </div>
+            <a href="#modal-pulsechat" class="project-link">View Architecture &rarr;</a>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-category="python">
+            <div class="project-badge">CLI Utility</div>
+            <h3>Smart Matrix &amp; Fare Engine</h3>
+            <p>
+              A modular Python calculation suite featuring dynamic tier-based transit ticket pricing, parity-aware arithmetic engines, and automated edge-case unit validation.
+            </p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>Algorithms</span>
+              <span>CLI</span>
+            </div>
+            <a href="#modal-matrix" class="project-link">View Architecture &rarr;</a>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-category="web">
+            <div class="project-badge">UI / UX Showcase</div>
+            <h3>Zero-JS Interactive Developer Portal</h3>
+            <p>
+              A high-performance, accessible portfolio architecture engineered purely with semantic HTML5 and modern CSS3 state selectors, achieving 100/100 Lighthouse performance.
+            </p>
+            <div class="tech-tags">
+              <span>HTML5</span>
+              <span>CSS3 Grid</span>
+              <span>Responsive UI</span>
+            </div>
+            <a href="#modal-portal" class="project-link">View Architecture &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pure CSS Modals for Project Details (:target) -->
+  <div id="modal-floodguard" class="modal">
+    <div class="modal-box">
+      <a href="#projects" class="modal-close" aria-label="Close modal">&times;</a>
+      <h3>FloodGuard — Technical Breakdown</h3>
+      <p><strong>Problem:</strong> Delayed evacuation and overcrowded relief camps during monsoon flooding.</p>
+      <p><strong>Solution:</strong> Engineered a Python-based scoring model that evaluates elevation risk, population density, and shelter capacity to assign vulnerable habitations to optimal safe zones.</p>
+      <p><strong>Key Outcome:</strong> Reduced simulated shelter overflow by 34% in test datasets.</p>
+    </div>
+  </div>
+
+  <div id="modal-pulsechat" class="modal">
+    <div class="modal-box">
+      <a href="#projects" class="modal-close" aria-label="Close modal">&times;</a>
+      <h3>PulseChat — Technical Breakdown</h3>
+      <p><strong>Problem:</strong> HTTP polling creates unnecessary latency and server overhead for live conversations.</p>
+      <p><strong>Solution:</strong> Built an event-driven WebSocket pipeline with custom handshake verification in <code>client.js</code> and clean Git branch workflows.</p>
+      <p><strong>Key Outcome:</strong> Sub-40ms message delivery across local network nodes.</p>
+    </div>
+  </div>
+
+  <div id="modal-matrix" class="modal">
+    <div class="modal-box">
+      <a href="#projects" class="modal-close" aria-label="Close modal">&times;</a>
+      <h3>Smart Matrix &amp; Fare Engine — Technical Breakdown</h3>
+      <p><strong>Problem:</strong> Hardcoded conditional branches make pricing rules difficult to scale or audit.</p>
+      <p><strong>Solution:</strong> Designed lookup-driven Python functions handling multi-tier passenger categories, peak-hour multipliers, and digit-level checksum validation.</p>
+      <p><strong>Key Outcome:</strong> Clean O(1) rule evaluation with zero external dependencies.</p>
+    </div>
+  </div>
+
+  <div id="modal-portal" class="modal">
+    <div class="modal-box">
+      <a href="#projects" class="modal-close" aria-label="Close modal">&times;</a>
+      <h3>Zero-JS Interactive Portal — Technical Breakdown</h3>
+      <p><strong>Problem:</strong> Heavy JavaScript bundles slow down simple personal websites on mobile networks.</p>
+      <p><strong>Solution:</strong> Leveraged CSS <code>:checked</code> sibling combinators for category filtering and <code>:target</code> pseudo-classes for interactive modals.</p>
+      <p><strong>Key Outcome:</strong> Under 15KB total page weight with full keyboard accessibility.</p>
+    </div>
+  </div>
+
+  <!-- Education & Timeline Section -->
+  <section id="education" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Education &amp; Milestones</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">2026 — 2030</span>
+          <h3>B.Tech in Computer Science &amp; Engineering</h3>
+          <p class="timeline-org">R.V. College of Engineering, Bengaluru</p>
+          <p>Focusing on Data Structures, Operating Systems, Discrete Mathematics, and active member of the campus Coding &amp; Hackathon Club.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">September 2026</span>
+          <h3>Smart India Hackathon (SIH) Participant</h3>
+          <p class="timeline-org">National Innovation Initiative</p>
+          <p>Collaborated in a 6-member engineering team to architect an end-to-end flood hazard assessment and relocation prototype.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2024 — 2026</span>
+          <h3>Higher Secondary (Class XII — PCM + Computer Science)</h3>
+          <p class="timeline-org">Delhi Public School, R.K. Puram</p>
+          <p>Graduated with 94.6% aggregate. Built strong foundations in Calculus, Vector Algebra, Physics, and Python programming.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h2 class="section-title">Let's Build Together</h2>
+        <p>
+          Looking for an enthusiastic engineering intern, hackathon teammate, or open-source collaborator? Drop a message and I will get back to you within 24 hours.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:nitin.sharma.dev@example.com" class="contact-card">
+            <strong>Email</strong>
+            <span>nitin.sharma.dev@example.com</span>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <strong>GitHub</strong>
+            <span>github.com/nitin-builds</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <strong>LinkedIn</strong>
+            <span>linkedin.com/in/nitin-sharma-eng</span>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" action="#contact-sent">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Aarav Verma" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="aarav@company.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Hi Nitin, let's connect regarding an internship role..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+        <div id="contact-sent" class="form-feedback">
+          Message validated! Click the email card on the left to launch your mail client directly.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Nitin Sharma. Crafted with pure HTML5 &amp; CSS3.</p>
+      <a href="#home" class="back-to-top">Back to Top &uarr;</a>
+    </div>
+  </footer>
+
+</body>
+</html>
